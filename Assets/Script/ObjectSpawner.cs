@@ -46,7 +46,7 @@ public class ObjectSpawner : MonoBehaviour
     //Gets a random number between -5 and 5
     float RandomNumber()
     {
-        float number = UnityEngine.Random.Range(-5f, 5f);
+        float number = UnityEngine.Random.Range(-10f, 10f);
         return number;
     }
 }

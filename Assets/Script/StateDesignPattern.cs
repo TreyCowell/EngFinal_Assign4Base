@@ -50,10 +50,10 @@ public class StateDesignPattern : MonoBehaviour
                 player.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
                 break;
             case playerstate.Rectangle:
-                player.transform.localScale = new Vector3(1.0f, 2.0f, 1.0f);
+                player.transform.localScale = new Vector3(1.30f, 1.30f, 1.30f);
                 break;
             case playerstate.LongerRectangle:
-                player.transform.localScale = new Vector3(1.0f, 3.0f, 1.0f);
+                player.transform.localScale = new Vector3(1.70f, 1.70f, 1.70f);
                 break;
         }
     }
